@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:label="@string/name_kinematics_simple"
+    tools:context=".activities.KinematicsReverse">
+
+    <com.example.damian.kinematics.adapters.CustomViewPager
+        android:id="@+id/viewpagerKinematicsSimple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
